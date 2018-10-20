@@ -89,8 +89,10 @@ $(document).ready(function() {
 function calcVH() {
   $('header').innerHeight( $(this).innerHeight() );
 }
-(function($) { 
-calcVH();
-$(window).on('orientationchange', function() {
+$(document).ready(function() {
   calcVH();
+  $(window).on('orientationchange', function() {
+    calcVH();
+  });
 });
+
