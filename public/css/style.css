@@ -273,7 +273,11 @@ header {
 
 @media (max-width: 375px) {
   .heading-text {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .donate {
+    color: white; }
+  .quotes {
+    text-align: center; } }
 
 .about {
   display: flex;
@@ -505,7 +509,7 @@ textarea {
   .heading-text-contact {
     padding: 0 2%;
     color: white;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     transition: 0.3s ease;
     width: 90%;
