@@ -213,7 +213,8 @@ header {
   font-size: 3.0rem;
   text-shadow: 2px 3px 1px #1c1e2f;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 1.5px; }
 
 .quotes {
   position: absolute;
@@ -326,8 +327,10 @@ header {
       font-size: 1.3rem; } }
 
 @media (max-width: 375px) {
-  .about-right p {
-    font-size: 1.1rem; } }
+  .about-right {
+    letter-spacing: 1.5px; }
+    .about-right p {
+      font-size: 1.1rem; } }
 
 .prayerTimes {
   display: inline-block;
