@@ -84,3 +84,13 @@ $(document).ready(function() {
 //     });
 // });
 
+////////////// [ mobile browser resize ] /////////////////////
+
+function calcVH() {
+  $('header').innerHeight( $(this).innerHeight() );
+}
+(function($) { 
+calcVH();
+$(window).on('orientationchange', function() {
+  calcVH();
+});

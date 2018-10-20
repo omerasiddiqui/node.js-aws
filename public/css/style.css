@@ -492,6 +492,9 @@ textarea {
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s; }
 
+.contact-mobile {
+  display: none; }
+
 @media (max-width: 600px) {
   .contact {
     padding-top: 5%; }
@@ -506,15 +509,17 @@ textarea {
 @media (max-width: 375px) {
   .outer-container {
     display: none; }
-  .heading-text-contact {
+  .contact-mobile {
+    display: block; }
+  .email-text-contact {
     padding: 0 2%;
     color: white;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     text-align: center;
     transition: 0.3s ease;
-    width: 90%;
-    margin: 1.3em auto; }
-  .heading-text-contact {
+    width: 65%;
+    margin: 1.3em auto;
+    color: white;
     border-bottom: 2px solid white; } }
 
 .footer {
