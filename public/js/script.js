@@ -27,7 +27,7 @@ function changeText() {
     }
   }
 
-  setInterval(changeText, 8000);
+  setInterval(changeText, 9000);
 
 ////// [ form script ] ////////
 
