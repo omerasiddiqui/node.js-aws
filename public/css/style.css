@@ -514,13 +514,15 @@ textarea {
   .email-text-contact {
     padding: 0 2%;
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
     transition: 0.3s ease;
-    width: 65%;
+    width: 82%;
     margin: 1.3em auto;
     color: white;
-    border-bottom: 2px solid white; } }
+    border-bottom: 2px solid white; }
+    .email-text-contact a {
+      color: white; } }
 
 .footer {
   bottom: 0;
