@@ -353,7 +353,7 @@ header {
 
 @media (max-width: 450px) {
   .about-right {
-    letter-spacing: 1.5px; }
+    letter-spacing: 1px; }
     .about-right p {
       font-size: 1.1rem; }
   .prayerQuote {
