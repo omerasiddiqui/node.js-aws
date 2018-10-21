@@ -43,6 +43,8 @@ if (navigator.geolocation) {
   }
 
   function errorFunction(){
+    alert(err.code);
+    alert(err.message);
     alert("Geocoder failed");
   }
 
