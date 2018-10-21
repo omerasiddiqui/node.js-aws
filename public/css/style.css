@@ -267,7 +267,7 @@ header {
   .quotes {
     font-size: 1.3rem; } }
 
-@media (max-width: 600px) {
+@media (max-width: 775px) {
   .heading-text {
     font-size: 4rem;
     padding: 2% 0 2px 0; } }
@@ -308,7 +308,14 @@ header {
     padding: 0 10%;
     line-height: 1.55; }
 
-@media (max-width: 600px) {
+.gold {
+  color: #ffcc00; }
+
+.prayerQuote {
+  font-weight: bold;
+  letter-spacing: 0px; }
+
+@media (max-width: 775px) {
   .about {
     padding-bottom: 10%;
     flex-direction: column;
@@ -344,8 +351,19 @@ header {
   margin-bottom: 6%;
   text-align: center; }
 
-@media (max-width: 600px) {
+.prayerTimesMonroe {
+  display: inline-block;
+  padding: 1% 15%;
+  border: 2px solid #ffcc00;
+  font-size: 1.4rem; }
+
+@media (max-width: 775px) {
   .prayerTimes {
+    font-size: 2rem;
+    padding: 1% 2%;
+    width: 90%;
+    margin-top: 5%; }
+  .prayerTimesMonroe {
     font-size: 2rem;
     padding: 1% 2%;
     width: 90%;
@@ -353,6 +371,8 @@ header {
 
 @media (max-width: 450px) {
   .prayerTimes {
+    font-size: 1.5rem; }
+  .prayerTimesMonroe {
     font-size: 1.5rem; } }
 
 *,
@@ -498,7 +518,7 @@ textarea {
 .contact-mobile {
   display: none; }
 
-@media (max-width: 600px) {
+@media (max-width: 775px) {
   .contact {
     padding-top: 5%; }
   .input {
@@ -507,9 +527,7 @@ textarea {
     width: 75%; }
   #send-button {
     width: 300px;
-    height: 90px; } }
-
-@media (max-width: 450px) {
+    height: 90px; }
   .outer-container {
     display: none; }
   .contact-mobile {
@@ -537,7 +555,7 @@ textarea {
   .footer p {
     margin: 0; }
 
-@media (max-width: 600px) {
+@media (max-width: 775px) {
   .footer {
     font-size: 0.9rem; } }
 
