@@ -301,7 +301,7 @@ header {
   text-align: center; }
 
 .about-left {
-  width: 30%;
+  width: 90%;
   order: 2; }
 
 .about-right {
@@ -354,7 +354,8 @@ header {
 .prayerTimesWrapper {
   display: initial;
   margin-bottom: 6%;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 .prayerTimesMonroe {
   display: inline-block;
@@ -377,6 +378,8 @@ header {
     width: 90%;
     margin-top: 5%; }
   .prayerTimesWrapper {
+    width: 100%; }
+  #map {
     width: 100%; } }
 
 @media (max-width: 450px) {
