@@ -282,6 +282,9 @@ header {
 
 .about {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: 30;
   padding: 5% 0%;
   margin: 0 5%;
@@ -298,22 +301,25 @@ header {
   text-align: center; }
 
 .about-left {
-  width: 30%; }
+  width: 30%;
+  order: 2; }
 
 .about-right {
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   letter-spacing: 2px; }
   .about-right p {
     padding: 0 10%;
     line-height: 1.55; }
 
-.gold {
-  color: #ffcc00; }
+.white {
+  color: white; }
 
 .prayerQuote {
   font-weight: bold;
-  letter-spacing: 0px; }
+  letter-spacing: 0px;
+  color: #ffcc00;
+  font-size: 1.25rem; }
 
 @media (max-width: 775px) {
   .about {
@@ -341,13 +347,12 @@ header {
 
 .prayerTimes {
   display: inline-block;
-  padding: 1% 15%;
+  width: 90vw;
   border: 2px solid #ffcc00;
   font-size: 1.4rem; }
 
 .prayerTimesWrapper {
   display: initial;
-  width: 95%;
   margin-bottom: 6%;
   text-align: center; }
 
@@ -356,6 +361,9 @@ header {
   padding: 1% 15%;
   border: 2px solid #ffcc00;
   font-size: 1.4rem; }
+
+#map {
+  height: 35vh; }
 
 @media (max-width: 775px) {
   .prayerTimes {
@@ -367,7 +375,9 @@ header {
     font-size: 2rem;
     padding: 1% 2%;
     width: 90%;
-    margin-top: 5%; } }
+    margin-top: 5%; }
+  .prayerTimesWrapper {
+    width: 100%; } }
 
 @media (max-width: 450px) {
   .prayerTimes {
