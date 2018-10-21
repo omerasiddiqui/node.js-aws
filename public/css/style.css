@@ -322,7 +322,7 @@ header {
   font-size: 1.6rem;
   border: 1px solid white;
   border-radius: 12px;
-  padding: 9px 27px;
+  padding: 12px 27px;
   box-shadow: 3px 3px 1px gold, 3px 3px 5px white, 3px 3px 2px gold; }
 
 .about-content:nth-of-type(2) {
@@ -357,10 +357,11 @@ header {
     .about-right p {
       font-size: 1.1rem; }
   .prayerQuote {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     box-shadow: none;
     border: none;
-    border: 1px solid white; } }
+    border: 1px solid white;
+    padding: 9px; } }
 
 .prayerTimes {
   display: inline-block;
