@@ -64,27 +64,6 @@ $(document).ready(function() {
 
 });
 
-////////////// [ prayer times ] /////////////////////
-
-// un-comment before going live
-
-var API_KEY = "f7a9d9d54358c3cd93b834ec60d1d8be";
-
-
-jQuery(function($) {
-    $.getJSON('http://muslimsalat.com/monroe/daily.json?key=API_KEY&jsoncallback=?', function (times)
-    {
-        console.log(times);
-        $('.prayerTimesMonroe')
-        .append('<p>Today in ' +times.city + ", " + times.state + "</p>")
-        .append('<p> Fajr: ' +times.items[0].fajr + "</p>")
-        .append('<p> Dhuhr: ' +times.items[0].dhuhr + "</p>")
-        .append('<p> Asr: ' +times.items[0].asr + "</p>")
-        .append('<p> Maghrib: ' +times.items[0].maghrib + "</p>")
-        .append('<p> Isha: ' +times.items[0].isha + "</p>")
-    });
-});
-
 ////////////// [ mobile browser resize ] /////////////////////
 
 function calcVH() {
