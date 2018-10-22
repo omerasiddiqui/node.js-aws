@@ -344,6 +344,9 @@ header {
   width: 52px !important;
   border-radius: 35px !important; }
 
+#st-1 .st-btn[data-network='sharethis']:nth-of-type(5) {
+  margin-right: 0; }
+
 @media (max-width: 775px) {
   .about {
     padding-bottom: 10%;
