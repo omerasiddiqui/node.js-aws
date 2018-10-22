@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/privacy', (req, res) => {
-    res.render('privacy');
+    res.render('/privacy.html');
 })
 
 app.use(express.static('public'))
