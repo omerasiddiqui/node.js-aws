@@ -2,10 +2,16 @@
 
 function makeShake() {
   $(".donate").removeClass("hide");
-  $(".donate").addClass("flip");
+  $(".donate").addClass("fadeInDown");
+}
+
+function fadeInUp() {
+  $(".amazonPay").removeClass("hide");
+  $(".amazonPay").addClass("fadeInUp");
 }
 
 setInterval(makeShake, 1500)
+setInterval(fadeInUp, 1500)
 
 ////////////////// [ quote slideshow] /////////////////////
 
@@ -76,3 +82,7 @@ $(document).ready(function() {
   });
 });
 
+
+
+var amazonClientId = "amzn1.application-oa2-client.4af4262a236b472fbd8e5c3bda0feabf",
+    amazonSecret = "a20ee5a8a9dcf954a16fd917bb3e79fb52dec95c5f43490b04bcdd5e39421de8";

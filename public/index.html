@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
@@ -20,8 +20,25 @@
                 <h1 class="heading-text animated fadeInUp">Islamic Center of Farmerville</h1>
             </div>
             <div class="donate-container">
-                    <a class="donate animated hide" href="https://www.gofundme.com/islamic-center-of-farmerville">Donate</a>
+                <a class="donate animated hide" href="https://www.gofundme.com/islamic-center-of-farmerville">Donate</a>
             </div>
+            <div
+                class="amazonPay animated hide"
+                data-ap-widget-type="expressPaymentButton"
+                data-ap-signature="vD5JlcQJashOIGs81u73AAsGdIrlokaB5RxbVf491aI%3D"
+                data-ap-seller-id="A1LANTWBZR5LE1"
+                data-ap-access-key="AKIAIWCNJ3CDJ4PXNHJQ"
+                data-ap-lwa-client-id="amzn1.application-oa2-client.894e660f550148efadfee27fb9e5450b"
+                data-ap-return-url="https://www.icflouisiana.com"
+                
+                    data-ap-cancel-return-url="https://www.icflouisiana.com"
+                
+                data-ap-currency-code="USD"
+                data-ap-amount="100"
+                data-ap-note=""
+                data-ap-shipping-address-required="false"
+                data-ap-payment-action="AuthorizeAndCapture"></div>
+
             <div class="quotes">
                 <h5 class="animated fadeInUp">"Be steadfast in prayer, practice regular <span class="charity">charity</span>,
                     and bow down your heads with those who bow down (in worship)" (2:43).</h5>
@@ -37,39 +54,46 @@
     <main>
 
         <div class="about">
-            <div class="about-left"><div class="prayerTimesWrapper">
+            <div class="about-left">
+                <div class="prayerTimesWrapper">
                     <div id="map" class="prayerTimes animated fadeInUp" style="color: white;">
                         <!-- from js -->
                     </div>
-                    
-                </div></div>
+
+                </div>
+            </div>
             <div class="about-right">
                 <h1 class="heading-text about-heading">about</h1>
                 <p class="about-content">
-                     
-                    There is a growing community of Muslims in the area who have had to travel over 60 miles round trip  
+
+                    There is a growing community of Muslims in the area who have had to travel over 60 miles round trip
                     to meet for prayer. Inshallah, these brothers and sisters will soon have a masjid that will offer
-                    all five daily prayers and Friday prayer, along with other teachings of The Holy Quran and The Sunnah.
+                    all five daily prayers and Friday prayer, along with other teachings of The Holy Quran and The
+                    Sunnah.
 
                     <br><br>
 
-                    By the Grace of Allah, the Town of Farmerville, Louisiana community is excited to announce plans for a masjid of our own - a place where we can
+                    By the Grace of Allah, the Town of Farmerville, Louisiana community is excited to announce plans
+                    for a masjid of our own - a place where we can
                     worship, gather, and rejoice together.
-                    
+
                     <br><br>
 
-                    The area is spacious enough for a men's section, women's section, wudu/bathrooms, a kitchen, and will be located on Thomas street in the heart of Farmerville.
-                    
+                    The area is spacious enough for a men's section, women's section, wudu/bathrooms, a kitchen, and
+                    will be located on Thomas street in the heart of Farmerville.
+
                     <br><br>
 
                     Now we need your help to make this dream a reality!
-                    
+
                     <br><br>
 
-                    Please help us spread the word so that we can establish our very own space by the end of Summer '19.
+                    Please help us spread the word so that we can establish our very own space by the end of Summer
+                    '19.
                 </p>
                 <div class="sharethis-inline-share-buttons"></div>
-                <p class="about-content"><em class="prayerQuote">Oh Allah, send prayers upon the family of the giver of <span class="white">charity</span></em></p>
+                <p class="about-content"><em class="prayerQuote">Oh Allah, send prayers upon the family of the giver of
+                        <span class="white">charity</span></em></p>
             </div>
         </div>
 
@@ -121,7 +145,7 @@
         </div>
 
         <div class="contact-mobile">
-            <h4 class="email-text-contact">    
+            <h4 class="email-text-contact">
                 <a href="mailto:wasiddiqui@gmail.com?Subject=Hello!">wasiddiqui@gmail.com</a>
             </h4>
         </div>
@@ -130,14 +154,20 @@
 
     <!-- footer starts here -->
     <footer>
-        <p class="footer">Copyright © Islamic Center of Farmerville 2018 | Developed by <a href="http://www.omer.codes" target="_blank" class="omer">Omer Siddiqui</a></p>
+        <p class="footer">Copyright © Islamic Center of Farmerville 2018 | Developed by <a href="http://www.omer.codes"
+                target="_blank" class="omer">Omer Siddiqui</a></p>
     </footer>
     <!-- footer ends here -->
+    <script src="https://www.paypalobjects.com/api/checkout.js" async></script>
+    <script async src="https://static-na.payments-amazon.com/OffAmazonPayments/us/sandbox/js/Widgets.js"></script>
     <script src="//platform-api.sharethis.com/js/sharethis.js#property=5bcc1bb4e0bd0500111055bf&product=inline-share-buttons"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1enG5_1nkoR0vCWS3N3RGpDEuyfcfPeQ&callback=initMap" type="text/javascript"></script>
-    <script src="js/googleMaps.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1enG5_1nkoR0vCWS3N3RGpDEuyfcfPeQ&callback=initMap"
+        type="text/javascript"></script>
+    <script src="js/googleMaps.js"></script>
     <!-- <script src="js/location.js"></script>     -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
