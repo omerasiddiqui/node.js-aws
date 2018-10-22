@@ -3,7 +3,7 @@ const path = require('path');
 const app = express()
 
 app.get('/privacy', (req, res) => {
-    res.sendFile(path.join(__dirname, '../', 'privacy.html'));
+    res.sendFile(path.join(__dirname, '../current/public', 'privacy.html'));
 });
 
 app.use(express.static('public'))
