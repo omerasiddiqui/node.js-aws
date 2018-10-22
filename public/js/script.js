@@ -2,12 +2,12 @@
 
 function makeShake() {
   $(".donate").removeClass("hide");
-  $(".donate").addClass("fadeInUp");
+  $(".donate").addClass("fadeInDown");
 }
 
 function fadeInUp() {
   $(".amazonPay").removeClass("hide");
-  $(".amazonPay").addClass("fadeInDown");
+  $(".amazonPay").addClass("fadeInUp");
 }
 
 setInterval(makeShake, 1500)
