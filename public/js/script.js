@@ -2,7 +2,7 @@
 
 function makeShake() {
   $(".donate").removeClass("hide");
-  $(".donate").addClass("fadeInUp");
+  $(".donate").addClass("flip");
 }
 
 function fadeInUp() {

@@ -255,8 +255,7 @@ header {
   font-size: 70.25%;
   text-transform: uppercase;
   letter-spacing: 4px;
-  transition: 0.8s ease;
-  margin-top: 6%; }
+  transition: 0.8s ease; }
 
 .donate:hover,
 .donate:focus {
