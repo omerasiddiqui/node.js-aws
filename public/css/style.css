@@ -345,7 +345,8 @@ header {
   border-radius: 35px !important; }
 
 .sharelinks {
-  margin-left: 2.75%; }
+  margin-left: 2.75%;
+  margin: 0% auto 2% auto; }
 
 @media (max-width: 775px) {
   .about {
@@ -362,7 +363,9 @@ header {
       padding: 0;
       font-size: 1.3rem; }
   .prayerQuote {
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+  .sharelinks {
+    margin: 2% auto 4% auto; } }
 
 @media (max-width: 450px) {
   .about-right {
