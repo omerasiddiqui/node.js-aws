@@ -6,7 +6,7 @@ app.get('/privacy', (req, res) => {
     res.sendFile(path.join(__dirname, '../current/public', 'privacy.html'));
 });
 
-app.get('donate-button', (req, res) => {
+app.get('/donate-button', (req, res) => {
     res.sendFile(path.join(__dirname, '../current/public/assets/images/', 'paypal-button.png')
 })
 
