@@ -82,7 +82,36 @@ $(document).ready(function() {
   });
 });
 
+const serviceID = "service_zkzmi9b"
+const templateID = "template_xosfpsn"
+let templateParams;
+const userID = "user_AOpQMhmW9QCJKO0qKOeoS"
+
+emailjs.init(userID);
+
+$('#send-button').on('click', function() {
+
+  console.log('clicked')
+
+  let firstName =  $('#input-1').val();
+  let lastName = $('#input-2').val();
+  let fullName = firstName + " " + lastName;
+
+  templateParams = {
+    "from_name" : fullName,
+    "from_email": $('#input-4').val(),
+    "phone_number" : $('#input-3').val(),
+    "message" : $('#input-5').val()
+  }
+
+emailjs.send("service_zkzmi9b","template_xosfpsn", templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+
+})
 
 
-var amazonClientId = "amzn1.application-oa2-client.4af4262a236b472fbd8e5c3bda0feabf",
-    amazonSecret = "a20ee5a8a9dcf954a16fd917bb3e79fb52dec95c5f43490b04bcdd5e39421de8";
+

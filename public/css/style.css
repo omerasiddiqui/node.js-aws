@@ -272,6 +272,15 @@ header {
   align-items: center;
   margin-top: 5px; }
 
+#paypalDonate {
+  margin-top: 4%;
+  margin-bottom: 8%;
+}
+
+#paypalDonate input[type="image"] {
+  width: 57%;
+}
+
 @media (max-width: 850px) {
   .quotes {
     font-size: 1.3rem; } }
