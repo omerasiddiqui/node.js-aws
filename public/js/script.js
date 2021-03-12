@@ -1,20 +1,12 @@
-///////////////// [ donate spin animation ] //////////////
-
+// animate
 function makeShake() {
   $(".donate").removeClass("hide");
   $(".donate").addClass("flip");
 }
 
-function fadeInUp() {
-  $(".amazonPay").removeClass("hide");
-  $(".amazonPay").addClass("fadeInDown");
-}
+setInterval(makeShake, 750)
 
-setInterval(makeShake, 1500)
-setInterval(fadeInUp, 1500)
-
-////////////////// [ quote slideshow] /////////////////////
-
+// quotes
 const quotesDiv = $(".quotes");
 
 const quotes = [
@@ -33,10 +25,9 @@ function changeText() {
     }
   }
 
-  setInterval(changeText, 9000);
+  setInterval(changeText, 8000);
 
-////// [ form script ] ////////
-
+// contact form
 var $input;
 
 function onInputFocus(event) {
@@ -70,8 +61,7 @@ $(document).ready(function() {
 
 });
 
-////////////// [ mobile browser resize ] /////////////////////
-
+// mobile resize
 function calcVH() {
   $('header').innerHeight( $(this).innerHeight() );
 }
@@ -82,6 +72,7 @@ $(document).ready(function() {
   });
 });
 
+// emailJS forwarding
 const serviceID = "service_zkzmi9b"
 const templateID = "template_xosfpsn"
 let templateParams;
@@ -90,7 +81,7 @@ const userID = "user_AOpQMhmW9QCJKO0qKOeoS"
 emailjs.init(userID);
 
 $('#send-button').on('click', function() {
-  
+
   let firstName =  $('#input-1').val();
   let lastName = $('#input-2').val();
   let fullName = firstName + " " + lastName;
