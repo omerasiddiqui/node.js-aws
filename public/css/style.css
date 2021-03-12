@@ -347,8 +347,9 @@ header {
 
 .about-right {
   flex-direction: column;
-  width: 100%;
-  letter-spacing: 2px; }
+    width: 80%;
+    letter-spacing: 2px;
+    margin: 0 auto;}
   .about-right p {
     padding: 0 10%;
     line-height: 1.55; }
