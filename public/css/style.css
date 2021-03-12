@@ -260,9 +260,9 @@ header {
 .donate:hover,
 .donate:focus {
   outline: 0;
-  background-color: #ffdb4d;
+  border-color: white;
   color: #000;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
   transition: 0.2s ease;
   -webkit-transition: -webkit-transform 0.3s; }
 
