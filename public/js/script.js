@@ -90,9 +90,7 @@ const userID = "user_AOpQMhmW9QCJKO0qKOeoS"
 emailjs.init(userID);
 
 $('#send-button').on('click', function() {
-
-  console.log('clicked')
-
+  
   let firstName =  $('#input-1').val();
   let lastName = $('#input-2').val();
   let fullName = firstName + " " + lastName;

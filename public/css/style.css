@@ -244,7 +244,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
+  background-color: #ffcc00;
   width: 200px;
   height: 60px;
   margin-top: 1%;
@@ -260,7 +260,7 @@ header {
 .donate:hover,
 .donate:focus {
   outline: 0;
-  background-color: #ffcc00;
+  background-color: #ffdb4d;
   color: #000;
   transition: transform 0.3s;
   transition: 0.2s ease;
