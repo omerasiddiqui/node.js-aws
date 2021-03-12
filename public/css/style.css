@@ -217,7 +217,8 @@ header {
   text-shadow: 2px 3px 1px #1c1e2f;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  margin-bottom: 2%; }
 
 .quotes {
   position: absolute;
