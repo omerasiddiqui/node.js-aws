@@ -236,6 +236,12 @@ header {
 .hide {
   opacity: 0; }
 
+  #update-heading-text {
+    color: #ffcc00;
+    border-bottom: 1px solid #ffcc00;
+    font-size: 1.3rem;
+  }
+
 .donate-container {
   display: flex;
   justify-content: center;
