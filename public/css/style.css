@@ -410,7 +410,7 @@ header {
     border: 1px solid white;
     padding: 9px; } }
 
-.prayerTimes {
+#Alh {
   display: inline-block;
   width: 90vw;
   border: 2px solid #ffcc00;
@@ -428,7 +428,7 @@ header {
   border: 2px solid #ffcc00;
   font-size: 1.4rem; }
 
-#map {
+#Alh {
   height: 35vh; }
 
 @media (max-width: 775px) {
