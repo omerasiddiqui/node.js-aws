@@ -583,7 +583,8 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 4px;
   -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s; }
+  transition: transform 0.3s;
+  border-radius: 15px; }
 
 #send-button:hover,
 #send-button:focus {
