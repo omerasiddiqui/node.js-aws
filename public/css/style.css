@@ -334,6 +334,12 @@ header {
 .about-heading {
   display: inline-block; }
 
+  #about-text {
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+  }
+
 .about-left, .about-right {
   display: flex;
   justify-content: center;
