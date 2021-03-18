@@ -220,6 +220,25 @@ header {
   letter-spacing: 1.5px;
   margin-bottom: 2%; }
 
+  #map {
+  height: 50vh; }
+
+  #address-text {
+    font-size: 2.75rem;
+    text-shadow: 1.5px 1.5px 1px #ffcc00;
+    margin-bottom: 0;
+  }
+
+  #address-text a {
+    color: white;
+    transition: 0.3s ease;
+  }
+
+  #address-text a:hover {
+    color: #ffcc00;
+    text-shadow: 1.5px 1.5px 1px white; 
+  }
+
 .quotes {
   position: absolute;
   bottom: 0;

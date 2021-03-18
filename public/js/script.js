@@ -107,10 +107,10 @@ emailjs.send("service_zkzmi9b","template_xosfpsn", templateParams)
 // Initialize and add the map
       function initMap() {
         // The location of Farmerville
-        const farmervilleMosque = { lat: 32.77, lng: -92.40 };
+        const farmervilleMosque = { lat: 32.77185279955007, lng: -92.40107269379759 };
         // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
+          zoom: 16,
           center: farmervilleMosque,
         });
         // The marker, positioned at Uluru
@@ -119,6 +119,7 @@ emailjs.send("service_zkzmi9b","template_xosfpsn", templateParams)
           map: map,
         });
       }
+
 
 
 
